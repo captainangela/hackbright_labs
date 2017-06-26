@@ -7,12 +7,10 @@ import random
 num = random.randint(1,101)
 name = raw_input("Howdy, what's your name? ")
 guesses = 0
+guess = 0
 
 print name + ", I'm thinking of a number between 1 and 100"
 print "Try to guess my number."
-print num
-
-guess = 0
 
 while guess != num:
 	guess = int(raw_input("Your guess? "))
